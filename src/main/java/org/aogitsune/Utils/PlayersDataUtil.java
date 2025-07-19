@@ -16,6 +16,9 @@ public class PlayersDataUtil {
         movement.y = pos.y();
         movement.z = pos.z();
 
+        movement.ya = pos.yaw();
+        movement.pi = pos.pitch();
+
         return movement;
     }
 }

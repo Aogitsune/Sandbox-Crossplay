@@ -13,7 +13,9 @@ public class CrossplayDataClass {
         public double y;
         public double z;
         public String n;
-        public double t;
+        public long t;
+        public float ya;
+        public float pi;
     }
 
     public static class Chat {
