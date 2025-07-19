@@ -1,10 +1,10 @@
 plugins {
     id 'java'
-    id 'com.gradleup.shadow' version "8.3.0"
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
 }
 
-group 'org.werewolvesmc'
-version ''
+group 'org.aogitsune'
+version = '1.0.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
@@ -15,13 +15,12 @@ repositories {
 }
 
 dependencies {
-    implementation 'net.minestom:minestom-snapshots:1_21_6-a40d7115d4'
-    implementation 'org.slf4j:slf4j-simple:2.0.17'
-    compileOnly 'net.luckperms:api:5.5'
-    implementation 'org.yaml:snakeyaml:2.0'
-    implementation "net.kyori:adventure-text-minimessage:4.22.0"
-    implementation 'com.sparkjava:spark-core:2.9.4'
-    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation "net.minestom:minestom-snapshots:$minestomVersion"
+    implementation "org.slf4j:slf4j-simple:$slf4jVersion"
+    compileOnly "net.luckperms:api:$luckpermsVersion"
+    implementation "org.yaml:snakeyaml:$snakeyamlVersion"
+    implementation "net.kyori:adventure-text-minimessage:$minimessageVersion"
+    implementation "com.google.code.gson:gson:$gsonVersion"
 }
 
 java {

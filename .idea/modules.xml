@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Crossplay_Minestom.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Crossplay_Minestom.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Crossplay_Minestom.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Crossplay_Minestom.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sandbox_Crossplay.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Sandbox_Crossplay.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sandbox_Crossplay.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Sandbox_Crossplay.test.iml" />
     </modules>
   </component>
 </project>
